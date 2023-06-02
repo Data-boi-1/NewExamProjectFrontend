@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sailing Races and Boats Overview</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Sailing Race Management</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Overview</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../HTML/CreateSailingBoat.html">Add Sailing Boat</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../HTML/DeleteSailingBoat.html">Delete Sailing Boat</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../HTML/EditSailingBoat.html">Edit Sailing Boat</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../HTML/CreateSailingRace.html">Add Sailing Race</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../HTML/EditSailingRace.html">Delete Sailing Race</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../HTML/EditSailingRace.html">Edit Sailing Race</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+  <h2>Data Overview</h2>
+  <table class="table">
+    <thead>
+    <tr>
+      <th>Race ID</th>
+      <th>Race Date</th>
+    </tr>
+    </thead>
+    <tbody id="overviewRacesID"></tbody>
+  </table>
+
+  <h2>Sailing Boats</h2>
+  <table class="table">
+    <thead>
+    <tr>
+      <th>ID</th>
+      <th>Name</th>
+      <th>Sailing Type</th>
+    </tr>
+    </thead>
+    <tbody id="overviewBoatsID"></tbody>
+  </table>
+</div>
+
+<script src="overviewOfData.js"></script>
+</body>
+</html>
